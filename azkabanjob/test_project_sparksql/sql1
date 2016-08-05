@@ -1,0 +1,2 @@
+select * from t_ed_qqreader_qimei where statis_day = DATA_TIME
+

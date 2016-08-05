@@ -1,0 +1,2 @@
+select 'DATA_TIME' as stat_time,count(1) as pv,count(DISTINCT qimei) as uv from tmp_table
+

@@ -1,0 +1,4 @@
+type=command
+name=t_ed_qqreader_qimei
+command=spark-submit --class com.chinareading.dataplatform.SparkSQLMain --master spark://spark03:7077 --executor-memory 16G --total-executor-cores 8 /usr/local/app/dataplatform.jar sql1 config.properties
+dependencies=t_ed_qqreader_qimei2

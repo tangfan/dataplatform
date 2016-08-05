@@ -1,0 +1,3 @@
+type=command
+name=t_md_qqbook_pvuv
+command=spark-submit --class com.chinareading.dataplatform.SparkStreamingMain --master spark://spark03:7077 --executor-memory 8G --total-executor-cores 4 /usr/local/app/dataplatform.jar sql config.properties

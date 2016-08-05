@@ -1,0 +1,10 @@
+
+module datamoniterservant
+{
+
+interface DataMoniterServant
+{
+    int test();
+};
+
+}; 

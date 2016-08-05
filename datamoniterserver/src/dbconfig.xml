@@ -1,0 +1,14 @@
+<dbconfig>
+	<connection name="data_db">
+		<type value="Proxool" />
+		<host value="10.191.141.105" />
+		<port value="10012" />
+		<user value="yuewendata" />
+		<password value="yuewendata1" />
+		<db value="dataDB" />
+		<characterEncoding value="UTF-8" />
+		<maximum-connection-count value="5" />
+		<maximum-connection-lifetime value="3600000" />
+		<minimum-connection-count value="1" />
+	</connection>
+</dbconfig>
